@@ -1,0 +1,16 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot seq_mat_mul_fsm_tb_func_synth xil_defaultlib.seq_mat_mul_fsm_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'seq_mat_mul_fsm_1' does not have a parameter named N [E:/Vivado_projects/IEEE_743_adder_lak/IEEE_743_adder_lak.srcs/sim_1/new/seq_mat_mul_fsm_tb.v:18]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.seq_mat_mul_fsm_1
+Compiling module xil_defaultlib.seq_mat_mul_fsm_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot seq_mat_mul_fsm_tb_func_synth

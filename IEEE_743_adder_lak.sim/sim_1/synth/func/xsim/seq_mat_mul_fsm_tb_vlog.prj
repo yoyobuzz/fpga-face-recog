@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"seq_mat_mul_fsm_tb_func_synth.v" \
+"../../../../../IEEE_743_adder_lak.srcs/sim_1/new/seq_mat_mul_fsm_tb.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,19 @@
+Exception at PC 0x00007FF887D1FDED
+Attemped to read address 0xFFFFFFFFFFFFFFFF
+Printing stacktrace...
+
+[0] (iki_vlog_event_callback+0xdd) [0x00007FF887D1FDED]
+[1] (iki_vlog_event_callback+0xdd) [0x00007FF887D1FDED]
+[2] (vlog_ep_nsr_tree+0x70) [0x00007FF887D26F00]
+[3] (Scheduler::getSchedulerMap+0x486a) [0x00007FF887C1CDEA]
+[4]  [0x0000000000401F02]
+[5] (xsi_trace_all+0x101f4) [0x00007FF887D3F8C4]
+[6]  [0x0000000000403F02]
+[7] (xsi_trace_all+0x141ea) [0x00007FF887D438BA]
+[8] (xsi_trace_all+0xb14f) [0x00007FF887D3A81F]
+[9] (xsi_trace_all+0x9cec) [0x00007FF887D393BC]
+[10] (xsi_trace_all+0x9859) [0x00007FF887D38F29]
+[11] (configthreadlocale+0x92) [0x00007FF9415D1BB2]
+[12] (BaseThreadInitThunk+0x14) [0x00007FF9432E7344]
+[13] (RtlUserThreadStart+0x21) [0x00007FF9437026B1]
+Done
